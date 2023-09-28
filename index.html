@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon Feedback Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="feedback-form">
+        <h1>Outerbase Hackathon Feedback Form</h1>
+        <form id="feedback-form">
+            <div class="question">
+                <label for="q1">Name:</label>
+                <input type="text" id="q1" name="name">
+            </div>
+            <div class="question">
+                <label for="q2">Email:</label>
+                <input type="text" id="q2" name="email">
+            </div>
+            <div class="question">
+                <label for="q3">Number of Submissions made:</label>
+                <input type="number" id="q3" name="total_submissions">
+            </div>
+            <div class="question">
+                <label for="q4">Usefulness Of Resources:</label>
+                <select id="q4" name="resource_usefulness">
+                    <option value="Not Likely">Not Likely</option>
+                    <option value="Somewhat Likely">Somewhat Likely</option>
+                    <option value="Neutral">Neutral</option>
+                    <option value="Likely">Likely</option>
+                     <option value="Very Likely">Very Likely</option>
+                </select>
+            </div>
+            <div class="question">
+                <label for="q5">Submission Category:</label>
+                <select id="q5" name="submission_category">
+                    <option value="Innovative App">Innovative App</option>
+                    <option value="Best Plugin">Best Plugin</option>
+                    <option value="Most Integrations">Most Integrations</option>
+                </select>
+            </div>
+            <div class="question">
+                <label for="q6">What tools, technologies or programmng languages did you used during the Hackathon?:</label>
+                <input type="text" id="q6" name="tools_used">
+            </div>
+            <div class="question">
+                <label for="q7">Would you be interested in participating in future Outerbase events or hackathons?:</label>
+                <select id="q7" name="future_participation">
+                    <option value="Not Likely">Not Likely</option>
+                    <option value="Somewhat Likely">Somewhat Likely</option>
+                    <option value="Neutral">Neutral</option>
+                    <option value="Likely">Likely</option>
+                    <option value="Very Likely">Very Likely</option>
+                </select>
+            </div>
+            <div class="question">
+                <label for="q8">Were the hackathon prizes and incentives motivating?:</label>
+                <select id="q8" name="prizes_motivation">
+                    <option value="Not Likely Motivational">Not Likely Motivational</option>
+                    <option value="Somewhat Likely Motivational">Somewhat Likely Motivational</option>
+                    <option value="Neutral">Neutral</option>
+                    <option value="Motivational">Motivational</option>
+                    <option value="Very Motivational">Very Motivational</option>
+                </select>
+                
+            </div>
+            <div class="question">
+                <label for="q9">How satisfied were you with the Outerbase platform?:</label>
+                <select id="q9" name="platform_satisfaction">
+                    <option value="Not Likely Satisfied">Not Likely Satisfied</option>
+                    <option value="Somewhat Likely Satisfied">Somewhat Likely Satisfied</option>
+                    <option value="Neutral">Neutral</option>
+                    <option value="Likely Satisfied">Likely Satisfied</option>
+                    <option value="Very Satisfied">Very Satisfied</option>
+                </select>
+                
+            </div>
+            <div class="question">
+                <label for="q10">Overall experience in the hackathon:</label>
+                <select id="q10" name="hackathon_experience">
+                    <option value="Excellent">Excellent</option>
+                    <option value="Very Good">Very Good</option>
+                    <option value="Good">Good</option>
+                    <option value="Fair">Fair</option>
+                    <option value="Poor">Poor</option>
+                </select>
+            </div>
+            <div class="question">
+                <label for="q11">Hashnode Username:</label>
+                <input type="text" id="q11" name="hashnode_username">
+            </div>
+            <div class="question">
+                <label for="q12">GitHub Username:</label>
+                <input type="text" id="q12" name="github_username">
+            </div>
+            <div class="question">
+                <label for="q13">Twitter Username:</label>
+                <input type="text" id="q13" name="twitter_username">
+            </div>
+            <div class="question">
+                <label for="q14">Additional Feedback:</label>
+                <input type="text" id="q14" name="additional_feedback">
+            </div>
+            
+            <div class="buttons">
+                <button type="button" id="next-button">Next</button>
+                <button type="button" id="submit-button" style="display: none;">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
